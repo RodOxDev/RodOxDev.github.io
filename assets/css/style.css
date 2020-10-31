@@ -15,7 +15,7 @@ Imports & Variables
 ========================================================================== */
 body {
   font-family: "Open sans", sans-serif;
-  color: #115c9b;
+  color: #04a39d; 
 }
 
 h1,
@@ -44,7 +44,7 @@ a:hover, a:focus, a:active {
 }
 
 .navbar-top {
-  background: #115c9b;
+  background: #009791; 
   font-size: 12px;
   padding: 3px 0;
 }
@@ -61,7 +61,7 @@ a:hover, a:focus, a:active {
 .navbar-main {
   margin-bottom: 0;
   color: #fff;
-  background: #1f76bd;
+  background: #009791;
 }
 .navbar-main .navbar-brand {
   border-bottom: none !important;
@@ -77,7 +77,7 @@ a:hover, a:focus, a:active {
 .navbar-main .submenu {
   position: absolute;
   list-style: none;
-  background: #1f76bd;
+  background: #009791;
   padding: 0;
   width: 150px;
   left: -35px;
@@ -130,7 +130,7 @@ a:hover, a:focus, a:active {
   width: 100%;
 }
 .carousel-home .carousel-control {
-  background: #1f76bd;
+  background: #009791;
   height: 80px;
   width: 40px;
   top: 50%;
@@ -269,7 +269,7 @@ a:hover, a:focus, a:active {
 .cause {
   padding-bottom: 15px;
   margin-bottom: 30px;
-  border: 1px solid #1f76bd;
+  border: 1px solid #009791;
   -moz-transition: all, 0.3s;
   -o-transition: all, 0.3s;
   -webkit-transition: all, 0.3s;
@@ -277,11 +277,11 @@ a:hover, a:focus, a:active {
 }
 .cause .cause-progress {
   margin: 0 10px 15px;
-  border: 1px solid #1f76bd;
+  border: 1px solid #009791;
   border-radius: 3px;
 }
 .cause .cause-progress .progress-bar {
-  background: #1f76bd;
+  background: #009791;
   box-shadow: none;
 }
 .cause .cause-img {
@@ -309,11 +309,11 @@ a:hover, a:focus, a:active {
 /* Team 
 ================================= */
 .team-member {
-  background: #1f76bd;
+  background: #009791;
   color: #fff;
   text-align: center;
   padding-bottom: 15px;
-  border: 1px solid #1f76bd;
+  border: 1px solid #009791;
 }
 .team-member .thumnail img {
   width: 100%;
@@ -328,12 +328,12 @@ a:hover, a:focus, a:active {
 /* footer 
 ================================= */
 .footer-top {
-  background: #115c9b;
+  background: #04a39d;
   height: 40px;
 }
 
 .main-footer {
-  background: #1f76bd;
+  background: #009791;
   color: #fff;
 }
 .main-footer .footer-main {
@@ -363,7 +363,7 @@ a:hover, a:focus, a:active {
   content: "";
   height: 1px;
   display: block;
-  background: #115c9b;
+  background: #04a39d;
   width: 150px;
   margin: 15px auto;
 }
@@ -372,7 +372,7 @@ a:hover, a:focus, a:active {
 }
 
 .footer-bottom {
-  background: #115c9b;
+  background: #04a39d;
   padding: 3px;
 }
 
@@ -380,7 +380,7 @@ a:hover, a:focus, a:active {
   margin-bottom: 5px;
 }
 .footer-form .form-control {
-  background: #115c9b;
+  background: #04a39d;
   color: #fff;
   border: 0;
   border-radius: 0;
@@ -390,7 +390,7 @@ a:hover, a:focus, a:active {
 }
 .footer-form .btn-submit {
   border-radius: 0;
-  background: #115c9b;
+  background: #04a39d;
   text-transform: uppercase;
   border: 1px solid #fff;
   -moz-transition: all, 0.5s;
@@ -463,7 +463,7 @@ a:hover, a:focus, a:active {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background: #1f76bd;
+  background: #009791;
   vertical-align: middle;
   margin-right: 5px;
   color: #fff;
@@ -497,7 +497,7 @@ form .alert {
 	Module
 ========================================================================== */
 .btn-primary {
-  background: #115c9b;
+  background: #04a39d;
   border: none;
   border-radius: 0;
   padding: 10px 25px;
@@ -509,17 +509,17 @@ form .alert {
 }
 .btn-primary:hover {
   background: #fff;
-  color: #1f76bd;
-  border: 1px solid #1f76bd;
+  color: #009791;
+  border: 1px solid #009791;
 }
 
 .btn-secondary {
   background: #fff;
-  color: #1f76bd;
+  color: #009791;
   border-radius: 0;
 }
 .btn-secondary:hover {
-  background: #1f76bd;
+  background: #009791;
   color: #fff;
 }
 
@@ -548,7 +548,7 @@ form .alert {
 .title-under {
   display: block;
   margin: 5px auto;
-  background: #1f76bd;
+  background: #009791;
   height: 1px;
   width: 280px;
 }
@@ -572,40 +572,40 @@ form .alert {
 /* Tabeles
 ================================= */
 .table-style-1 thead {
-  background: #1f76bd;
+  background: #009791;
   border-bottom: 1px solid #144d7b;
   color: #fff;
 }
 .table-style-1 td,
 .table-style-1 th {
-  border-bottom: 1px solid #1f76bd;
+  border-bottom: 1px solid #009791;
 }
 
 .table-style-2 thead {
-  background: #115c9b;
+  background: #04a39d;
   border-bottom: 1px solid #144d7b;
   color: #fff;
 }
 .table-style-2 tbody tr:nth-child(even) {
-  background: #1f76bd;
+  background: #009791;
   color: #fff;
 }
 .table-style-2 td,
 .table-style-2 th {
-  border-bottom: 1px solid #1f76bd;
+  border-bottom: 1px solid #009791;
 }
 
 /* Tabs
 ================================= */
 .nav-tabs {
-  border-bottom-color: #1f76bd;
+  border-bottom-color: #009791;
   margin-bottom: 15px;
 }
 
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  background: #1f76bd;
+  background: #009791;
   color: #fff;
 }
 
@@ -614,26 +614,26 @@ form .alert {
 }
 
 .nav-tabs > li > a:hover {
-  border-color: #1f76bd #1f76bd #1f76bd #115c9b;
+  border-color: #009791 #009791 #009791 #04a39d;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
-  background: #115c9b;
+  background: #04a39d;
   color: #fff;
 }
 
 /* Accordion
 ================================= */
 .panel-default {
-  border-color: #1f76bd;
+  border-color: #009791;
   border-radius: 0;
 }
 .panel-default > .panel-heading {
-  background: #1f76bd;
+  background: #009791;
   color: #fff;
 }
 .panel-default > .panel-heading:hover {
-  background: #115c9b;
+  background: #04a39d;
 }
 
 /* Modal
@@ -642,7 +642,7 @@ form .alert {
   border-radius: 0;
 }
 .modal .modal-header {
-  background: #1f76bd;
+  background: #009791;
   color: #fff;
 }
 .modal .modal-header .close {
@@ -830,8 +830,8 @@ form .alert {
   .navbar-main li:hover .submenu li,
   .navbar-main li:active .submenu li,
   .navbar-main li:focus .submenu li {
-    background: #115c9b;
-    border-top-color: #1f76bd;
+    background: #04a39d;
+    border-top-color: #009791;
   }
 
   .carousel-home .carousel-title {
@@ -841,7 +841,7 @@ form .alert {
     font-size: 16px;
   }
   .carousel-home .carousel-control {
-    background: #1f76bd;
+    background: #009791;
     height: 40px;
     width: 20px;
     top: 50%;
@@ -1059,4 +1059,23 @@ form .alert {
 .zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
+}
+
+.exit-btn {
+  bottom: 85px;
+}
+.exit-btn {
+  position: fixed;
+  z-index: 9999999;
+  bottom: 25px;
+  right: 15px;
+  background: #ed927a;
+  border-radius: 50px;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  box-shadow: -1px 6px 44px -7px #bb715d;
+  transition: .3s ease;
 }
