@@ -62,6 +62,7 @@ a:hover, a:focus, a:active {
   margin-bottom: 0;
   color: #009791;
   background: #fff;
+  height: auto;
 }
 .navbar-main .navbar-brand {
   border-bottom: none !important;
@@ -184,9 +185,9 @@ a:hover, a:focus, a:active {
   background-color: #0076a3;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMjgwODE0IiB5MT0iLTAuMTAyMjA4IiB4Mj0iMC43MTkxODYiIHkyPSIxLjEwMjIwOCI+PHN0b3Agb2Zmc2V0PSItMjUlIiBzdG9wLWNvbG9yPSIjMTE1YjliIi8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMxMjkwZjgiLz48c3RvcCBvZmZzZXQ9IjEyNSUiIHN0b3AtY29sb3I9IiMxMTViOWIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background-size: 100%;
-  background-image: -moz-linear-gradient(290deg, #115b9b -25%, #1290f8 50%, #115b9b 125%);
-  background-image: -webkit-linear-gradient(290deg, #115b9b -25%, #1290f8 50%, #115b9b 125%);
-  background-image: linear-gradient(160deg, #115b9b -25%, #1290f8 50%, #115b9b 125%);
+  background-image: -moz-linear-gradient(290deg, #009791 -25%, #009791 50%, #009791 125%);
+  background-image: -webkit-linear-gradient(290deg, #009791 -25%, #009791 50%, #009791 125%);
+  background-image: linear-gradient(160deg, #009791 -25%, #009791 50%, #009791 125%);
   color: #fff;
 }
 .about-us-col .col-icon-wrapper {
@@ -333,8 +334,8 @@ a:hover, a:focus, a:active {
 }
 
 .main-footer {
-  background: #009791;
-  color: #fff;
+  background: #364240;
+  color: #ffffff;
 }
 .main-footer .footer-main {
   padding: 30px 0;
@@ -497,7 +498,7 @@ form .alert {
 	Module
 ========================================================================== */
 .btn-primary {
-  background: #04a39d;
+  background: #ffffff;
   border: none;
   border-radius: 0;
   padding: 10px 25px;
@@ -619,7 +620,7 @@ form .alert {
 
 .nav > li > a:hover, .nav > li > a:focus {
   background: #04a39d;
-  color: #fff;
+  color: #eb8b2e;
 }
 
 /* Accordion
@@ -749,6 +750,38 @@ form .alert {
   left: auto;
   right: 0;
 }
+
+/* ===================================== Charity Number CSS ================================== */
+.doctor-message {
+  background-image: url("../images/slider/s3.png");
+  background-attachment: fixed;
+  background-size: cover; }
+  .doctor-message .session-title h2 {
+    color: #FFF; }
+
+.doctor-message .inner-lay {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 50px;
+  color: #FFF; }
+
+@media screen and (max-width: 940px) {
+  .doctor-message .inner-lay {
+    padding: 30px 10px; } }
+.doctor-message .inner-lay .numb {
+  text-align: center;
+  padding: 30px; }
+
+.doctor-message .inner-lay .numb h3 {
+  font-size: 42px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #CCC;
+  margin-bottom: 20px;
+  color: #FFF; }
+
+
+
+
+
 
 /* =============================================================================
 	Responsive
@@ -1079,3 +1112,7 @@ form .alert {
   box-shadow: -1px 6px 44px -7px #bb715d;
   transition: .3s ease;
 }
+
+.my-icon{
+  margin-right: 35ex;
+  float: right; }
