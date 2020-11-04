@@ -693,6 +693,8 @@ form .alert {
   -webkit-transition: all, 0.6s;
   transition: all, 0.6s;
 }
+
+
 .lightbox .on-hover:before {
   content: "";
   display: block;
