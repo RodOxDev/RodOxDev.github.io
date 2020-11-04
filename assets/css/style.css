@@ -1200,11 +1200,12 @@ form .alert {
   border-radius: 6px;
   display: inline-block;
   transition: all 0.3s ease 0s;
+  margin-bottom: 40px;
   }
 
-  .example_d:hover {
-    color: #8c2454 !important;
-    border-radius: 50px;
-    border-color: #8c2454 !important;
-    transition: all 0.3s ease 0s;
-    }
+.example_d:hover {
+  color: #8c2454 !important;
+  border-radius: 50px;
+  border-color: #8c2454 !important;
+  transition: all 0.3s ease 0s;
+  }
