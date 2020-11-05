@@ -188,7 +188,6 @@ $(function(){
 	};
 
 	if( $("#contact-map").length > 0 ) {
-
 		initMap();
 		
 	}
