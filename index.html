@@ -25,6 +25,46 @@
       <script src="assets/js/modernizr-2.6.2.min.js"></script>
   </head>
 
+
+	<!--CHAT -->
+	<script>
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?70121';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+  "enabled":true,
+  "chatButtonSetting":{
+    "backgroundColor":"#009791",
+    "ctaText":"",
+    "borderRadius":"25",
+    "marginLeft":"50",
+    "marginBottom":"70",
+    "marginRight":"50",
+    "position":"right"
+  },
+  "brandSetting":{
+    "brandName":"Myriam",
+    "brandSubTitle":"Responde dentro de umas horas",
+    "brandImg":"https://rodoxdev.github.io/assets/images/logoBranco.png",
+    "welcomeText":"Olá, bem vindo\nFala conosco sobre o que precisares!",
+    "messageText":"Olá Myriam tenho algumas questões.",
+    "backgroundColor":"#009791",
+    "ctaText":"Começar Chat",
+    "borderRadius":"25",
+    "autoShow":false,
+    "phoneNumber":"351919419311"
+  }
+  };
+    s.onload = function() {
+      CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+</script>
+<!--CHAT -->
+
     <body>
 
 
@@ -344,15 +384,6 @@
     <!-- Template main javascript -->
     <script src="assets/js/main.js"></script>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-        e.src='//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-        ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
-
+   
     </body>
 </html>

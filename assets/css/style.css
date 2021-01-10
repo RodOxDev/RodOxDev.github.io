@@ -1211,3 +1211,29 @@ form .alert {
   border-color: #8c2454 !important;
   transition: all 0.3s ease 0s;
   }
+
+
+.joinchat *, .joinchat :after, .joinchat :before {
+    box-sizing: border-box;
+}
+
+
+.joinchat__button {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  z-index: 2;
+  bottom: 8px;
+  right: 8px;
+  height: var(--btn);
+  min-width: var(--btn);
+  max-width: 95vw;
+  background: #25d366;
+  color: inherit;
+  border-radius: calc(var(--btn)/2);
+  box-shadow: 1px 6px 24px 0 rgba(7,94,84,.24);
+  cursor: pointer;
+  transition: background .2s linear;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  will-change: background-color,width;
+}

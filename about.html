@@ -23,42 +23,55 @@
         <script src="assets/js/modernizr-2.6.2.min.js"></script>
 
 
-    </head>
+	</head>
+
+	<!--CHAT -->
+	<script>
+			var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?70121';
+			var s = document.createElement('script');
+			s.type = 'text/javascript';
+			s.async = true;
+			s.src = url;
+			var options = {
+		"enabled":true,
+		"chatButtonSetting":{
+			"backgroundColor":"#009791",
+			"ctaText":"",
+			"borderRadius":"25",
+			"marginLeft":"50",
+			"marginBottom":"70",
+			"marginRight":"50",
+			"position":"right"
+		},
+		"brandSetting":{
+			"brandName":"Myriam",
+			"brandSubTitle":"Responde dentro de umas horas",
+			"brandImg":"https://rodoxdev.github.io/assets/images/logoBranco.png",
+			"welcomeText":"Olá, bem vindo\nFala conosco sobre o que precisares!",
+			"messageText":"Olá Myriam tenho algumas questões.",
+			"backgroundColor":"#009791",
+			"ctaText":"Começar Chat",
+			"borderRadius":"25",
+			"autoShow":false,
+			"phoneNumber":"351919419311"
+		}
+		};
+			s.onload = function() {
+				CreateWhatsappChatWidget(options);
+			};
+			var x = document.getElementsByTagName('script')[0];
+			x.parentNode.insertBefore(s, x);
+	</script>
+	<!--CHAT -->
+
+
     <body>
     <!-- NAVBAR
     ================================================== -->
 
     <header class="main-header">
 
-		<script
-      		src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
-      		defer></script>
-			<style type="text/css">
-			/* Set the size of the div element that contains the map */
-			#map {
-				height: 400px;
-				/* The height is 400 pixels */
-				width: 100%;
-				/* The width is the width of the web page */
-			}
-			</style>
-    	<script>
-			// Initialize and add the map
-			function initMap() {
-				// The location of Uluru
-			const uluru = { lat: -25.344, lng: 131.036 };
-			// The map, centered at Uluru
-			const map = new google.maps.Map(document.getElementById("map"), {
-			zoom: 4,
-			center: uluru,
-			});
-			// The marker, positioned at Uluru
-			const marker = new google.maps.Marker({
-			position: uluru,
-			map: map,
-			});
-      	}
-    	</script>
+
 
         <nav class="navbar navbar-static-top">
             <div class="navbar-top">
@@ -398,6 +411,11 @@
         <a id="panic-button" class="exit-btn panic-button__button" href="https://www.google.com"><i class="fa fa-close"></i>SAIDA SEGURA</a>
 	</div>
 
+	
+
+
+
+
 	<!--Modal: modalYT-->
 	<div class="modal fade" id="modalYT" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
 	aria-hidden="true">
@@ -494,7 +512,7 @@
        
         
         <!-- jQuery -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"><\/script>')</script>
 
         <!-- Bootsrap javascript file -->
@@ -503,15 +521,5 @@
 
         <!-- Template main javascript -->
         <script src="assets/js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
     </body>
 </html>
