@@ -1187,7 +1187,6 @@ form .alert {
   margin: 0;
 }
 .item blockquote p:before {
-  content: ;
   font-family: 'Fontawesome';
   float: left;
   margin-right: 10px;
